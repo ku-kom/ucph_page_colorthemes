@@ -1,0 +1,16 @@
+tt_content.ucph_page_color_themes >
+# CTYPE: Text
+
+tt_content.ucph_page_color_themes =< lib.contentElement
+tt_content.ucph_page_color_themes {
+	templateName = Text
+	templateRootPaths {
+        101 = EXT:ucph_page_color_themes/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        101 = EXT:ucph_page_color_themes/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+        101 = EXT:ucph_page_color_themes/Resources/Private/Layouts/
+    }
+}

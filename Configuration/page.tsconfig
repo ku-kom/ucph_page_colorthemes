@@ -1,0 +1,34 @@
+mod.wizards.newContentElement.wizardItems {
+  // add the content element to the tab "common"
+  common {
+    elements {
+      ucph_page_color_themes {
+        iconIdentifier = content-text
+        title = LLL:EXT:ucph_page_color_themes/Resources/Private/Language/locallang_be.xlf:ucph_page_color_themes_title
+        description = LLL:EXT:ucph_page_color_themes/Resources/Private/Language/locallang_be.xlf:ucph_page_color_themes_desc
+        tt_content_defValues {
+          CType = ucph_page_color_themes
+        }
+      }
+    }
+    show := addToList(ucph_page_color_themes)
+  }
+}
+
+mod.wizards.newContentElement.wizardItems {
+  // add the content element to the tab "Text"
+  text {
+    header = LLL:EXT:ucph_page_color_themes/Resources/Private/Language/locallang_be.xlf:ucph_page_color_themes_wizard_tab
+    elements {
+      ucph_page_color_themes {
+        iconIdentifier = content-text
+        title = LLL:EXT:ucph_page_color_themes/Resources/Private/Language/locallang_be.xlf:ucph_page_color_themes_title
+        description = LLL:EXT:ucph_page_color_themes/Resources/Private/Language/locallang_be.xlf:ucph_page_color_themes_desc
+        tt_content_defValues {
+          CType = ucph_page_color_themes
+        }
+      }
+    }
+    show := addToList(ucph_page_color_themes)
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_page_color_themes/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_page_color_themes">
+        <header>
+            <authorName>Nanna Ellegaard</authorName>
+            <authorEmail>nel@adm.ku.dk</authorEmail>
+        </header>
+        <body>
+        <trans-unit id="ucph_page_color_themes_title">
+            <source>Select website colour theme</source>
+        </trans-unit>
+        <trans-unit id="ucph_page_color_themes_tab">
+            <source>Colour</source>
+        </trans-unit>
+        <trans-unit id="ucph_page_color_themes_desc">
+            <source>A regular text element with header and bodytext fields.</source>
+        </trans-unit>
+        </trans-unit>
+        </body>
+    </file>
+</xliff>
