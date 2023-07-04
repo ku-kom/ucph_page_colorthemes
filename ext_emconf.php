@@ -4,7 +4,7 @@
  * Extension Manager/Repository config file for ext "ucph_page_color_themes".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'UCPH TYPO3 color themes',
+    'title' => 'UCPH TYPO3 websitesite color themes',
     'description' => 'UCPH TYPO3 website color themes',
     'category' => 'templates',
     'constraints' => [

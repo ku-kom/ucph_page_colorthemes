@@ -21,15 +21,15 @@ call_user_func(function ($extKey='ucph_page_color_themes') {
                     'type' => 'select',
                     'renderType' => 'selectSingle',
                     'items' => [
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_label', '--div--'],
-                        ['LLL:EXT:'.$extKey.'Resources/Private/Language/locallang_tca.xlf:color.theme_default', ''],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_1', 'theme_1'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_2', 'theme_2'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_3', 'theme_3'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_4', 'theme_4'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_5', 'theme_5']
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_default', '', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_1', 'theme_1', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_2', 'theme_2', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_3', 'theme_3', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_4', 'theme_4', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_5', 'theme_5', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
                     ],
                 ],
+                'default' => '',
             ],
         ]
     );
