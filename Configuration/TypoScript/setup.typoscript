@@ -10,4 +10,5 @@ lib.page.class {
            data = levelfield : -1 , tx_ucph_page_colorthemes, slide  
         }
         noTrimWrap = | color-theme-||    }
+    }
 }
