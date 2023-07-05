@@ -1,0 +1,30 @@
+{
+    "name": "ucph_page_colorthemes",
+    "version": "1.0.0",
+    "description": "UCPH website color themes",
+    "scripts": {
+		"css-compile": "sass --style compressed --source-map --embed-sources --no-error-css \"Resources/Public/Scss/import.scss\" \"Resources/Public/Css/Dist/ucph-page-colors.min.css\"",
+		"css-lint": "stylelint \"Resources/Public/Scss/\"",
+		"css-prefix": "postcss \"Resources/Public/Css/Dist/ucph-page-colors.min.css\" --config build/postcss.config.js --output \"Resources/Public/Css/Dist/ucph-page-colors.min.css\"",
+		"watch-css": "onchange \"Resources/Public/Scss/**/*.scss\" -- npm-run-all css-compile css-lint css-prefix",
+		"watch": "npm-run-all --parallel watch-*",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+    "keywords": [
+        "TYPO3",
+        "Bootstrap",
+        "SASS"
+    ],
+    "author": "Nanna Ellegaard",
+    "license": "ISC",
+    "devDependencies": {
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.18",
+		"postcss-cli": "^10.0.0",
+		"sass": "^1.63.6",
+		"stylelint": "^15.9.0",
+		"stylelint-config-twbs-bootstrap": "^10.0.0",
+		"npm-run-all": "^4.1.5",
+		"onchange": "^7.1.0"
+	}
+}
