@@ -28,6 +28,11 @@ call_user_func(function ($extKey='ucph_page_color_themes') {
                         ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_4', 'theme_4', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
                         ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_5', 'theme_5', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
                     ],
+                    'fieldWizard' => [
+                        'selectIcons' => [
+                            'disabled' => false,
+                        ],
+                    ],
                 ],
                 'default' => '',
             ],

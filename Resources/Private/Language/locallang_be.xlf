@@ -10,7 +10,7 @@
             <source>Select website colour theme</source>
         </trans-unit>
         <trans-unit id="ucph_page_color_themes_tab">
-            <source>Colour</source>
+            <source>Settings</source>
         </trans-unit>
         <trans-unit id="ucph_page_color_themes_desc">
             <source>A regular text element with header and bodytext fields.</source>
