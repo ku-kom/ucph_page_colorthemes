@@ -1,16 +1,10 @@
-tt_content.ucph_page_color_themes >
-# CTYPE: Text
-
-tt_content.ucph_page_color_themes =< lib.contentElement
-tt_content.ucph_page_color_themes {
-	templateName = Text
-	templateRootPaths {
-        101 = EXT:ucph_page_color_themes/Resources/Private/Templates/
-    }
-    partialRootPaths {
-        101 = EXT:ucph_page_color_themes/Resources/Private/Partials/
-    }
-    layoutRootPaths {
-        101 = EXT:ucph_page_color_themes/Resources/Private/Layouts/
+# Add color theme class to body tag.
+# lib.page.class is inherited from EXT:ucph_base_config.
+lib.page.class = COA
+lib.page.class {
+    80 = TEXT
+    80 {
+        data = levelfield:-1, tx_ucph_page_colorthemes, slide
+        noTrimWrap = | color-theme-||
     }
 }
