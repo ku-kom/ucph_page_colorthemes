@@ -1,29 +1,41 @@
 :root {}
 
-.set-1 {
-    --theme-1-bg: #f90;
-    --theme-1-color: #{$black};
-    --theme-2-bg: #984e09;
-    --theme-2-color: #{$black};
-    --theme-3-bg: #984e09;
-    --theme-3-color: #{$black};
-    --theme-4-bg: #980917;
-    --theme-4-color: #{$white};
+.color-set-1 {
+    @include theme("subset_color_1", #f90, #{$black});
+    @include theme("subset_color_2", #984e09, #{$black});
+    @include theme("subset_color_3", #fd7e14, #{$white});
+    @include theme("subset_color_4", #980917, #{$white});
+    @include theme("subset_color_5", #0d6efd, #{$white});
 }
 
-.set-2 {
-    --theme-1-bg: #0d6efd;
-    --theme-1-color: #{$white};
-    --theme-2-bg: #6610f2;
-    --theme-2-color: #{$white};
-    --theme-3-bg: #d63384;
-    --theme-3-color: #{$white};
-    --theme-4-bg: #fd7e14;
-    --theme-4-color: #{$black};
+.color-set-2 {
+    @include theme("subset_color_1", #6610f2, #{$white});
+    @include theme("subset_color_2", #d63384, #{$white});
+    @include theme("subset_color_3", #fd7e14, #{$black});
+    @include theme("subset_color_4", #0d6efd, #{$white});
+    @include theme("subset_color_5", #198754, #{$white});
 }
 
-.set-3 {}
+.color-set-3 {
+    @include theme("subset_color_1", #20c997, #{$black});
+    @include theme("subset_color_2", #0dcaf0, #{$white});
+    @include theme("subset_color_3", #dc3545, #{$black});
+    @include theme("subset_color_4", #ffc107, #{$white});
+    @include theme("subset_color_5", #198754, #{$white});
+}
 
-.set-4 {}
+.color-set-4 {
+    @include theme("subset_color_1", #6610f2, #{$white});
+    @include theme("subset_color_2", #d63384, #{$white});
+    @include theme("subset_color_3", #fd7e14, #{$black});
+    @include theme("subset_color_4", #0d6efd, #{$white});
+    @include theme("subset_color_5", #198754, #{$white});
+}
 
-.set-5 {}
+.color-set-5 {
+    @include theme("subset_color_1", #6610f2, #{$white});
+    @include theme("subset_color_2", #d63384, #{$white});
+    @include theme("subset_color_3", #fd7e14, #{$black});
+    @include theme("subset_color_4", #0d6efd, #{$white});
+    @include theme("subset_color_5", #198754, #{$white});
+}
