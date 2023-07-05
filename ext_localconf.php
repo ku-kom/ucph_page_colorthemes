@@ -13,3 +13,11 @@ if ($versionInformation->getMajorVersion() < 12) {
       @import "EXT:ucph_page_color_themes/Configuration/page.tsconfig"
    ');
 }
+
+// Level sliding: Add custom database field to rootline - keep the '&'
+$rootlinefields = &$GLOBALS['TYPO3_CONF_VARS']['FE']['addRootLineFields'];
+if ($rootlinefields != '') {
+    $rootlinefields .= ' , ';
+}
+// Comma seperated custom fields:
+$rootlinefields .= 'tx_ucph_page_colorthemes';

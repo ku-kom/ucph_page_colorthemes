@@ -4,7 +4,10 @@ lib.page.class = COA
 lib.page.class {
     80 = TEXT
     80 {
-        data = levelfield:-1, tx_ucph_page_colorthemes, slide
-        noTrimWrap = | color-theme-||
-    }
+        value = default
+        override {
+           required = 1
+           data = levelfield : -1 , tx_ucph_page_colorthemes, slide  
+        }
+        noTrimWrap = | color-theme-||    }
 }
