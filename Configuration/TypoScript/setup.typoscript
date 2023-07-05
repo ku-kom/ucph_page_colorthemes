@@ -1,14 +1,34 @@
+page = PAGE
+page {
+    10 {
+        variables {
+            # Color  from root site
+            ucph_color_theme = TEXT
+            ucph_color_theme.data = field:tx_ucph_page_colorthemes
+            # Color theme from CType
+            # ucph_color = TEXT
+            # ucph_color.data = field:tx_ucph_ce_background_color
+        }
+    }
+    includeCSS {
+        if.isTrue = {$ucph_page_colorset.assets.Css}
+        ucph_page_colorset = {$ucph_page_colorset.assets.Css}
+        ucph_page_colorset.if.value.field = tx_ucph_page_colorthemes
+        htmlSanitize = 1
+    }
+}
+
 # Add color theme class to body tag.
 # lib.page.class is inherited from EXT:ucph_base_config.
 lib.page.class = COA
 lib.page.class {
     80 = TEXT
     80 {
-        value = default
+        value = set-default
         override {
            required = 1
            data = levelfield : -1 , tx_ucph_page_colorthemes, slide  
         }
-        noTrimWrap = | color-theme-||    }
+        noTrimWrap = | color-||    }
     }
 }

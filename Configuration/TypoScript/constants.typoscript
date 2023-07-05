@@ -1,0 +1,6 @@
+ucph_page_colorset {
+    assets {
+        # cat=UCPH page color set/Assets/t0; type=string; label=CSS assets: Path to stylesheet.
+        Css = EXT:ucph_page_color_themes/Resources/Public/Css/Dist/ucph-page-colors.min.css
+    }
+}

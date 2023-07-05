@@ -1,16 +1,29 @@
-:root {
-    
+:root {}
+
+.set-1 {
+    --theme-1-bg: #f90;
+    --theme-1-color: #{$black};
+    --theme-2-bg: #984e09;
+    --theme-2-color: #{$black};
+    --theme-3-bg: #984e09;
+    --theme-3-color: #{$black};
+    --theme-4-bg: #980917;
+    --theme-4-color: #{$white};
 }
 
-.theme_1 {
-    --semicollapse-accordion-height: 200px;
+.set-2 {
+    --theme-1-bg: #0d6efd;
+    --theme-1-color: #{$white};
+    --theme-2-bg: #6610f2;
+    --theme-2-color: #{$white};
+    --theme-3-bg: #d63384;
+    --theme-3-color: #{$white};
+    --theme-4-bg: #fd7e14;
+    --theme-4-color: #{$black};
 }
 
-.theme_2 {
-    --semicollapse-accordion-height: 300px;
-}
+.set-3 {}
 
-.theme_3 {
-    --semicollapse-accordion-height: 400px;
-}
+.set-4 {}
 
+.set-5 {}
