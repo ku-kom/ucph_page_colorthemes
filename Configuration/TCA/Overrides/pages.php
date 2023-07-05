@@ -9,7 +9,8 @@ call_user_func(function ($extKey='ucph_page_color_themes') {
         'UCPH TYPO3 website color themes'
     );
 
-    // Add Checkbox to page settings
+    // Adding selectbox to page settings
+    // Add more color themes as needed.
     $GLOBALS['TCA']['pages']['columns'] = array_replace_recursive(
         $GLOBALS['TCA']['pages']['columns'],
         [
