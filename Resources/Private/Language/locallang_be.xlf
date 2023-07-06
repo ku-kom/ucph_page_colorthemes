@@ -19,7 +19,7 @@
             <source>Background color</source>
         </trans-unit>
         <trans-unit id="color_none">
-            <source>Select...</source>
+            <source>None</source>
         </trans-unit>
         <trans-unit id="color_1">
             <source>Colour 1</source>

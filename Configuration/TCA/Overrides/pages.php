@@ -23,11 +23,11 @@ call_user_func(function ($extKey='ucph_page_color_themes') {
                     'renderType' => 'selectSingle',
                     'items' => [
                         ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_default', '', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_1', 'set-1', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_2', 'set-2', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_3', 'set-3', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_4', 'set-4', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
-                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_5', 'set-5', 'EXT:'.$extKey.'/Resources/Public/Icons/Extension.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_1', 'set-1', 'EXT:'.$extKey.'/Resources/Public/Icons/colorsets/colorset-01.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_2', 'set-2', 'EXT:'.$extKey.'/Resources/Public/Icons/colorsets/colorset-02.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_3', 'set-3', 'EXT:'.$extKey.'/Resources/Public/Icons/colorsets/colorset-03.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_4', 'set-4', 'EXT:'.$extKey.'/Resources/Public/Icons/colorsets/colorset-04.svg'],
+                        ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be_color_themes.xlf:color.theme_5', 'set-5', 'EXT:'.$extKey.'/Resources/Public/Icons/colorsets/colorset-05.svg'],
                     ],
                     'fieldWizard' => [
                         'selectIcons' => [
