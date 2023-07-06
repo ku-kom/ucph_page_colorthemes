@@ -10,7 +10,7 @@ call_user_func(function ($extKey='ucph_page_color_themes') {
     );
 
     // Adding selectbox to page settings
-    // Add more color themes as needed.
+    // Add more color themes as needed and make sute to include an icon as well.
     $GLOBALS['TCA']['pages']['columns'] = array_replace_recursive(
         $GLOBALS['TCA']['pages']['columns'],
         [
