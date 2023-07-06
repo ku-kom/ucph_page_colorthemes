@@ -12,12 +12,11 @@ page {
     }
     # Include css and js if TCA field on page is activated.
     includeCSS {
-        if.isTrue = {$ucph_page_colorset.assets.Css}
-        ucph_page_colorset = {$ucph_page_colorset.assets.Css}
-        ucph_page_colorset.if.value.field = tx_ucph_page_colorthemes
-        htmlSanitize = 1
+        # if.isTrue = {$ucph_page_colorset.assets.Css}
+        # ucph_page_colorset = {$ucph_page_colorset.assets.Css}
+        # ucph_page_colorset.if.value.field = tx_ucph_page_colorthemes
+        # htmlSanitize = 1
     }
-
 }
 
 # Add color theme class to body tag.
@@ -31,6 +30,19 @@ lib.page.class {
            required = 1
            data = levelfield : -1 , tx_ucph_page_colorthemes, slide  
         }
-        noTrimWrap = | color-||    }
+        noTrimWrap = | color-||
     }
 }
+
+// Color set
+# lib.colorset = COA
+# lib.colorset {
+#     80 = TEXT
+#     80 {
+#         value = default
+#         override {
+#            required = 1
+#            data = levelfield : -1 , tx_ucph_page_colorthemes, slide  
+#         }
+#     }
+# }
