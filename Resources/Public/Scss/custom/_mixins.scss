@@ -1,9 +1,9 @@
 // Theme color mixin
 @mixin theme($name, $bgColor, $textColor) {
-  .#{$name}{
+  .#{$name} {
     // .content { 
-        background: $bgColor;
-        color: $textColor;
+    background: $bgColor;
+    color: $textColor;
     // }
   }
 }

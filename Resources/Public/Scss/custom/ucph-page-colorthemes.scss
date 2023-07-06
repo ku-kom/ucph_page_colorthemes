@@ -1,41 +1,39 @@
-// :root {}
+// :root {
+// }
 
 .color-set-1 {
-    @include theme("subset_color_1", #f90, #{$black});
-    @include theme("subset_color_2", #984e09, #{$black});
-    @include theme("subset_color_3", #fd7e14, #{$white});
-    @include theme("subset_color_4", #980917, #{$white});
-    @include theme("subset_color_5", #0d6efd, #{$white});
+
+    @each $key, $value in $colorset-1 {
+        --#{$key}: #{$value};
+    }
+
+    // @include theme("subset_color_1", #f90, #{$black});
+    // @include theme("subset_color_2", #984e09, #{$black});
+    // @include theme("subset_color_3", #fd7e14, #{$white});
+    // @include theme("subset_color_4", #980917, #{$white});
+    // @include theme("subset_color_5", #0d6efd, #{$white});
 }
 
 .color-set-2 {
-    @include theme("subset_color_1", #6610f2, #{$white});
-    @include theme("subset_color_2", #d63384, #{$white});
-    @include theme("subset_color_3", #fd7e14, #{$black});
-    @include theme("subset_color_4", #0d6efd, #{$white});
-    @include theme("subset_color_5", #198754, #{$white});
+    @each $key,
+    $value in $colorset-2 {
+        --#{$key}: #{$value};
+    }
+    // @include theme("subset_color_1", #6610f2, #{$white});
+    // @include theme("subset_color_2", #d63384, #{$white});
+    // @include theme("subset_color_3", #fd7e14, #{$black});
+    // @include theme("subset_color_4", #0d6efd, #{$white});
+    // @include theme("subset_color_5", #198754, #{$white});
 }
 
 .color-set-3 {
-    @include theme("subset_color_1", #20c997, #{$black});
-    @include theme("subset_color_2", #0dcaf0, #{$white});
-    @include theme("subset_color_3", #dc3545, #{$black});
-    @include theme("subset_color_4", #ffc107, #{$black});
-    @include theme("subset_color_5", #198754, #{$white});
-}
-
-.color-set-4 {
-    @include theme("subset_color_1", #3319ad, #{$white});
-    @include theme("subset_color_2", #0c9797, #{$white});
-    @include theme("subset_color_3", #fe3c40, #{$black});
-    @include theme("subset_color_4", #1aca02, #{$black});
-    @include theme("subset_color_5", #fcfb00, #{$black});
-}
-
-.color-set-5 {
-    @include theme("subset_color_1", #aa3939, #{$white});
-    @include theme("subset_color_2", #801514, #{$white});
-    @include theme("subset_color_3", #540000, #{$white});
-    @include theme("subset_color_4", #ecc1c1, #{$black});
-    @include theme("subset_color_5", #198754, #{$white});
+    @each $key,
+    $value in $colorset-3 {
+        --#{$key}: #{$value};
+    }
+    // @include theme("subset_color_1", #20c997, #{$black});
+    // @include theme("subset_color_2", #0dcaf0, #{$white});
+    // @include theme("subset_color_3", #dc3545, #{$black});
+    // @include theme("subset_color_4", #ffc107, #{$black});
+    // @include theme("subset_color_5", #198754, #{$white});
 }

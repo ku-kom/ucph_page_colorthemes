@@ -12,10 +12,21 @@ page {
     }
     # Include css and js if TCA field on page is activated.
     includeCSS {
-        # if.isTrue = {$ucph_page_colorset.assets.Css}
-        # ucph_page_colorset = {$ucph_page_colorset.assets.Css}
-        # ucph_page_colorset.if.value.field = tx_ucph_page_colorthemes
-        # htmlSanitize = 1
+        if.isTrue = {$ucph_page_colorset.assets.Css}
+        ucph_page_colorset = {$ucph_page_colorset.assets.Css}
+        ucph_page_colorset.if.value.field = tx_ucph_page_colorthemes
+        htmlSanitize = 1
+    }
+
+
+	headerData {
+        30 = TEXT
+        30.wrap = <style>|</style>
+        30.value {
+            :root {
+
+            }
+        }
     }
 }
 
