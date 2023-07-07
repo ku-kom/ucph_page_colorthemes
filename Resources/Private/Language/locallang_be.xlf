@@ -36,6 +36,9 @@
         <trans-unit id="color_5">
             <source>Tertiary color 2</source>
         </trans-unit>
+        <trans-unit id="color_6">
+            <source>Tertiary color 3</source>
+        </trans-unit>
         </body>
     </file>
 </xliff>
