@@ -5,27 +5,6 @@ page {
             # Color  from root site
             ucph_color_theme = TEXT
             ucph_color_theme.data = field:tx_ucph_page_colorthemes
-            # Color theme from CType
-            # ucph_color = TEXT
-            # ucph_color.data = field:tx_ucph_ce_background_color
-        }
-    }
-    # Include css and js if TCA field on page is activated.
-    includeCSS {
-        if.isTrue = {$ucph_page_colorset.assets.Css}
-        ucph_page_colorset = {$ucph_page_colorset.assets.Css}
-        ucph_page_colorset.if.value.field = tx_ucph_page_colorthemes
-        htmlSanitize = 1
-    }
-
-
-	headerData {
-        30 = TEXT
-        30.wrap = <style>|</style>
-        30.value {
-            :root {
-
-            }
         }
     }
 }
@@ -44,16 +23,3 @@ lib.page.class {
         noTrimWrap = | color-||
     }
 }
-
-// Color set
-# lib.colorset = COA
-# lib.colorset {
-#     80 = TEXT
-#     80 {
-#         value = default
-#         override {
-#            required = 1
-#            data = levelfield : -1 , tx_ucph_page_colorthemes, slide  
-#         }
-#     }
-# }
