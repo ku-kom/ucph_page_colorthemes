@@ -39,6 +39,12 @@
         <trans-unit id="color_6">
             <source>Tertiary color 3</source>
         </trans-unit>
+        <trans-unit id="color_7">
+            <source>KU red</source>
+        </trans-unit>
+        <trans-unit id="color_8">
+            <source>KU grey</source>
+        </trans-unit>
         </body>
     </file>
 </xliff>
