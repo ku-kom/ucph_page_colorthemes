@@ -27,35 +27,35 @@ call_user_func(function ($extKey ='ucph_page_color_themes') {
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_1',
-                            'subset_color_1',
+                            'subset-color-1',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_2',
-                            'subset_color_2',
+                            'subset-color-2',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_3',
-                            'subset_color_3',
+                            'subset-color-3',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_4',
-                            'subset_color_4',
+                            'subset-color-4',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_5',
-                            'subset_color_5',
+                            'subset-color-5',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_6',
-                            'subset_color_6',
+                            'subset-color-6',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_7',
-                            'subset_color_7',
+                            'subset-color-7',
                         ],
                         [
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_8',
-                            'subset_color_8',
+                            'subset-color-8',
                         ],
                     ],
                 ],
