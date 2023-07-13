@@ -65,18 +65,10 @@ call_user_func(function ($extKey ='ucph_page_color_themes') {
     );
 
     // Add in tab "Appearence"
-    // \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
-    //     'tt_content',
-    //     'tx_ucph_ce_background_color',
-    //     '',
-    //     'after:tx_full_site_width'
-    // );
-
-    // Add in tab "Appearence"
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
         'tt_content',
-        'frames',
         'tx_ucph_ce_background_color',
+        '',
         'after:space_after_class'
     );
 });
