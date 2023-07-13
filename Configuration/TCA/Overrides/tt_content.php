@@ -49,14 +49,6 @@ call_user_func(function ($extKey ='ucph_page_color_themes') {
                             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_6',
                             'subset-color-6',
                         ],
-                        [
-                            'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_7',
-                            'subset-color-7',
-                        ],
-                        [
-                            'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:color_8',
-                            'subset-color-8',
-                        ],
                     ],
                 ],
                 'default' => '',
